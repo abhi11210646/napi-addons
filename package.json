@@ -1,0 +1,16 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node ./test/test_binding.js",
+    "build": "node-gyp configure build"
+  },
+  "gypfile": true,
+  "name": "napi-addons",
+  "version": "1.0.0",
+  "author": "abhishek singh",
+  "license": "ISC",
+  "description": ""
+}
