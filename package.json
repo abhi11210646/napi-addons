@@ -12,5 +12,9 @@
   "version": "1.0.0",
   "author": "abhishek singh",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "generator-napi-module": "^0.3.0",
+    "yo": "^2.0.5"
+  }
 }
