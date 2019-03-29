@@ -1,9 +1,11 @@
 {
   "main": "lib/binding.js",
   "dependencies": {
+    "bindings": "^1.5.0",
     "node-addon-api": "^1.1.0"
   },
   "scripts": {
+    "refresh": "node-gyp configure build && npm run test",
     "test": "node ./test/test_binding.js",
     "build": "node-gyp configure build"
   },

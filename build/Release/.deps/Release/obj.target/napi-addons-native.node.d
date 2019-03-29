@@ -1,1 +1,0 @@
-cmd_Release/obj.target/napi-addons-native.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=napi-addons-native.node -o Release/obj.target/napi-addons-native.node -Wl,--start-group Release/obj.target/napi-addons-native/src/main.o Release/obj.target/node_modules/node-addon-api/src/nothing.a -Wl,--end-group 
