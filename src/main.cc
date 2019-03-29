@@ -4,6 +4,8 @@
 Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
   exports.Set(Napi::String::New(env, "sum"),
         Napi::Function::New(env, Sum));
+  exports.Set(Napi::String::New(env, "sumCB"),
+        Napi::Function::New(env, SumCB));
   return exports;
 }
 
